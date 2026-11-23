@@ -14,6 +14,20 @@ The batch sequence comes from the caller. Within each batch, the executor sets t
 
 Both modes use the same group selection, pose generation, inverse kinematics, motion control, and guards. RGB-D uses camera calibration, known cookie dimensions, and the tray slot layout. It estimates object geometry without a fallback to simulator object poses. The robot controller uses simulator robot feedback, and the evaluator reads simulator object state after execution to score both modes.
 
+## Visual Planner
+
+The visual Planner proposes one batch from a task instruction, the current front RGB image, and an optional overhead image. It adds a normalized coordinate grid to the front view. An optional JSON history carries previous batch intents and their `accepted` or `rejected` outcomes. The Planner request accepts these image and text inputs without a simulator interface.
+
+After installing the Python dependencies, set `A3_PLANNER_API_BASE_URL` to an OpenAI-compatible API base URL, `A3_PLANNER_MODEL` to a vision-capable model ID, and `A3_PLANNER_API_KEY` to your credential in the process environment. The Planner sends the task and images to that endpoint. It uses the credential in the authorization header and writes the validated proposal to a JSON file.
+
+```sh
+python -m a3_atomic_executor.planner --front front.png --overhead overhead.png --task "Pack 20 cookies into the target box, 10 per column." --output proposal.json
+```
+
+The proposal carries a count and two pixel hints, or a stop decision. `--history` accepts an array of objects with `intent` (a previous `pick_and_place` proposal) and `outcome` (`accepted` or `rejected`). Python callers can use `plan_next()` to request the next proposal from a fresh image.
+
+The Planner and the paired physical trial currently have separate entry points. A grounding step must resolve a Planner proposal's target pixel hint to `target_column` and `first_row` for the existing fixed-executor plan format. The paired trial below consumes resolved batches directly from JSON.
+
 ## Run a paired trial
 
 Use Python 3.12 and a graphics backend that supports MuJoCo offscreen rendering. Install the Python dependencies in a fresh virtual environment from the root of this repository.
