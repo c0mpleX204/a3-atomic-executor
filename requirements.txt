@@ -1,0 +1,8 @@
+av==19.0.1
+gymnasium==1.4.0
+mujoco==3.16.0
+numpy==2.5.4
+opencv-contrib-python==5.0.0.93
+Pillow==13.0.0
+PyYAML==6.0.3
+scipy==1.18.1

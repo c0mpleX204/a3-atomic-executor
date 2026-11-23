@@ -1,0 +1,6 @@
+{
+  "batches": [
+    {"count": 10, "source_end_pixel_1000": [658, 398], "target_center_pixel_1000": [295, 560],
+     "target_column": 0, "first_row": 0}
+  ]
+}

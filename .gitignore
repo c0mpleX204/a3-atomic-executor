@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv*/
+artifacts/
+outputs/
+*.mp4
+*.npz
+*.pt
+*.pth
+*.safetensors
+.env
+.env.*
+MUJOCO_LOG.TXT
