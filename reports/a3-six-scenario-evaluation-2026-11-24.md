@@ -2,6 +2,19 @@
 
 评测于 2026 年 11 月 24 日完成。186 个计划回合均有记录。truth 对照成功 **5/6**，RGB-D 成功 **92/177（52.0%）**。RGB-D 计划 180 个回合，其中 3 个启动失败。
 
+## RGB-D 成功回合录像
+
+每个场景选取一段通过评测的 RGB-D 回合。录像按仿真动作时间 1× 播放，省去 API 等待和回滚的尝试。
+
+| 场景 | Seed | 时长（秒） | 录像 |
+| --- | ---: | ---: | --- |
+| `missing-columns` | 13000 | 19.1 | [MP4](media/a3-six-scenario-evaluation-2026-11-24/missing-columns-seed-13000.mp4) |
+| `partial-gaps` | 13028 | 24.1 | [MP4](media/a3-six-scenario-evaluation-2026-11-24/partial-gaps-seed-13028.mp4) |
+| `cross-column` | 13027 | 21.4 | [MP4](media/a3-six-scenario-evaluation-2026-11-24/cross-column-seed-13027.mp4) |
+| `tilted` | 13001 | 19.2 | [MP4](media/a3-six-scenario-evaluation-2026-11-24/tilted-seed-13001.mp4) |
+| `prefilled` | 13005 | 9.2 | [MP4](media/a3-six-scenario-evaluation-2026-11-24/prefilled-seed-13005.mp4) |
+| `two-boxes` | 13019 | 21.0 | [MP4](media/a3-six-scenario-evaluation-2026-11-24/two-boxes-seed-13019.mp4) |
+
 ## 评测设置
 
 - 模拟器使用 A3 上游版本 `a61b13f`，场景配置为 `basic`，启用随机化。倾斜场景使用 `mild`，双盒场景每盒要求 5 片。
