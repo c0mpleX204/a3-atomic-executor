@@ -4,6 +4,10 @@ This repository executes batches of cookie pick-and-place in the A3 dual-arm MuJ
 
 The batch sequence comes from the caller. Within each batch, the executor sets the jaw aperture, approaches, aligns, descends, closes with force feedback, lifts, carries, aligns to the tray, lowers, releases, and retreats. It stops the episode if a motion or grasp guard rejects a step.
 
+## CLAP experiment
+
+The [CLAP action-predictor experiment](clap_a3/README.md) includes a replayable A3 observation, the official action checkpoint, and an adapter for one simulated move-and-hold prediction.
+
 ## Geometry modes
 
 | Mode | Geometry input |

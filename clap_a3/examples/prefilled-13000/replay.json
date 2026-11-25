@@ -1,0 +1,119 @@
+{
+  "scenario": "prefilled",
+  "seed": 13000,
+  "simulator": {
+    "revision": "a61b13fe7253a262781b42253a0d382bf67a98e1",
+    "source_sha256": {
+      "tasks/cookie_2x10.py": "f12d464e6611360d3492c8d5bff90def82bec0152a27e4c419088cbba2fc4a96",
+      "tasks/cookie_transfer.py": "f1d13df60781d18cd5c1a8feb9ae5dcd0da9b297bbf91659fcc6090715d043d9",
+      "tasks/cookie_scenarios.py": "89332671a0983410aae0a0e6e74c84cc6227cff26c07f226a6550338b4aea394",
+      "workflows/benchmark.py": "6896da25929078b166e121af5be4957b621add905b7cd53e3b0dbe0347dedee3",
+      "config.py": "2cf1519bf51a5919ab4f6ccfc1f26b66f2bab06dfd307c57c53887a5ab9af150",
+      "sim/env.py": "2f0a817e4cbcbb820dadec204a22bd3586a587c826daa7d9599afa2cc5d7bef8"
+    }
+  },
+  "reset_options": {
+    "randomize_cookies": true,
+    "randomize_boxes": true,
+    "randomize_source_bin": true,
+    "randomize_target_bin": true,
+    "source_bin_noise_m": 0.01,
+    "target_bin_noise_m": 0.01,
+    "target_bin_yaw_noise_rad": 0.03,
+    "randomization_profile": "basic",
+    "appearance_seed": 13000,
+    "randomization_settings": {
+      "version": 1,
+      "profile": "basic",
+      "source_column": "1",
+      "profiles": {
+        "basic": {
+          "source_bin_noise_m": 0.01,
+          "target_bin_noise_m": 0.01,
+          "target_bin_yaw_noise_rad": 0.03,
+          "camera_position_m": 0.0,
+          "wrist_position_m": 0.0,
+          "camera_rotation_deg": 0.0,
+          "wrist_rotation_deg": 0.0,
+          "cookie_noise_m": 0.0003,
+          "cookie_yaw_noise_rad": 0.015,
+          "fovy_deg": 0.0,
+          "light_fraction": 0.0,
+          "palette": false
+        },
+        "medium": {
+          "source_bin_noise_m": 0.015,
+          "target_bin_noise_m": 0.015,
+          "target_bin_yaw_noise_rad": 0.05,
+          "camera_position_m": 0.004,
+          "wrist_position_m": 0.002,
+          "camera_rotation_deg": 0.0,
+          "wrist_rotation_deg": 0.0,
+          "cookie_noise_m": 0.0003,
+          "cookie_yaw_noise_rad": 0.015,
+          "fovy_deg": 1.0,
+          "light_fraction": 0.1,
+          "palette": false
+        },
+        "advanced": {
+          "source_bin_noise_m": 0.02,
+          "target_bin_noise_m": 0.02,
+          "target_bin_yaw_noise_rad": 0.08,
+          "camera_position_m": 0.009,
+          "wrist_position_m": 0.003,
+          "camera_rotation_deg": 2.0,
+          "wrist_rotation_deg": 1.0,
+          "cookie_noise_m": 0.0003,
+          "cookie_yaw_noise_rad": 0.015,
+          "fovy_deg": 2.0,
+          "light_fraction": 0.2,
+          "palette": true
+        }
+      },
+      "colors": {
+        "golden": [
+          0.9,
+          0.62,
+          0.12,
+          1.0
+        ],
+        "cocoa": [
+          0.38,
+          0.18,
+          0.08,
+          1.0
+        ],
+        "matcha": [
+          0.4,
+          0.6,
+          0.2,
+          1.0
+        ],
+        "berry": [
+          0.78,
+          0.3,
+          0.38,
+          1.0
+        ]
+      }
+    }
+  },
+  "planner_intent": {
+    "count": 5,
+    "source_end_pixel_1000": [
+      693,
+      428
+    ],
+    "target_center_pixel_1000": [
+      370,
+      590
+    ]
+  },
+  "held_cookies": [
+    "cookie_75",
+    "cookie_76",
+    "cookie_77",
+    "cookie_78",
+    "cookie_79"
+  ]
+}

@@ -1,0 +1,44 @@
+debug: false
+exp_id: gembench_policy_with_normalizer_pre_image_2_num_episodes_20_epochs_30
+lang_level: 1
+mvt:
+  activation: lrelu
+  attn_dim: 512
+  attn_dim_head: 64
+  attn_dropout: 0.1
+  attn_heads: 8
+  depth: 8
+  feat_dim: 220
+  im_channels: 64
+  img_feat_dim: 3
+  img_patch_size: 14
+  img_size: 224
+  lang_dim: 1152
+  lang_len: 16
+  num_rot: 72
+  pre_image_process: 2
+  proprio_dim: 4
+  rot_ver: 0
+  step_lang_type: 1
+  weight_tie_layers: false
+  xops: true
+prioritized_update: false
+resume: ''
+tasks: gembench
+train:
+  bs: 12
+  epochs: 30
+  gradient_accumulation: 8
+  lang_aug: false
+  lr: 1.25e-05
+  num_episodes: 20
+  num_workers: 3
+  refresh_replay: false
+  sample_distribution_mode: task_uniform
+  save_every: 1
+  train_iter: 160000
+  val_bs: 12
+  val_iter: 32000
+  val_num_episodes: 20
+verbose: false
+with_val: true

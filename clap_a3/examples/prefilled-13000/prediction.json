@@ -1,0 +1,71 @@
+{
+  "scene": "prefilled",
+  "seed": 13000,
+  "instruction": "Put the 5 held cookies upright into the indicated slots.",
+  "planner_intent": {
+    "count": 5,
+    "source_end_pixel_1000": [
+      693,
+      428
+    ],
+    "target_center_pixel_1000": [
+      370,
+      590
+    ]
+  },
+  "coarse_anchor_world_m": [
+    0.11298723825051743,
+    0.11075947619676257,
+    0.7557150223862228
+  ],
+  "current_a3_tcp_world_wxyz": [
+    0.25743540906916956,
+    0.3737268932150336,
+    0.8396879261770516,
+    0.643667696755065,
+    -0.29912384730866676,
+    0.2967377682321884,
+    -0.6388767620049042
+  ],
+  "current_jaw_opening_m": 0.02625736308444976,
+  "clap_proprio": [
+    0.0,
+    0.013128681108355522,
+    0.013128681108355522,
+    0.8333333134651184
+  ],
+  "camera_names": [
+    "front",
+    "left_wrist",
+    "right_wrist"
+  ],
+  "point_count_in_scene_bounds": 749020,
+  "point_count_in_zoom": 51114,
+  "zoom_half_width_m": 0.125,
+  "current_tcp_inside_zoom": false,
+  "target_position_world_m": [
+    0.08787563443183899,
+    0.11020144075155258,
+    0.7730141282081604
+  ],
+  "target_clap_tool_quaternion_xyzw": [
+    -0.6755902076156602,
+    -0.7372773368101241,
+    4.514372555934594e-17,
+    4.1366603041315826e-17
+  ],
+  "target_clap_tool_quaternion_wxyz": [
+    4.1366603041315826e-17,
+    -0.6755902076156602,
+    -0.7372773368101241,
+    4.514372555934594e-17
+  ],
+  "gripper_open_class": 0,
+  "clap_collision_class": 0,
+  "position_to_coarse_anchor_mm": 30.498575575639133,
+  "fine_forward_and_decode_seconds": 17.580498900000293,
+  "renderer": "torch_point_renderer",
+  "device": "cuda:0",
+  "checkpoint": "model_5.pth",
+  "output_scope": "A3-world position and CLAP-tool orientation, no A3 TCP calibration or motion"
+}

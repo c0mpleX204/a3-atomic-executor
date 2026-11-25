@@ -1,0 +1,134 @@
+{
+  "filename": "model_5.pth",
+  "bytes": 4297793420,
+  "sha256": "92f2bfca1f1439b26b5e53a7b5d7e9a46c2862998537f05b6655206e934e87d0",
+  "parts": [
+    {
+      "file": "model_5.pth.part-01.1",
+      "bytes": 268435456,
+      "sha256": "6082205874241adfef1a5345db947be87143e1c10f0255b974814a95ab1a7cd4"
+    },
+    {
+      "file": "model_5.pth.part-01.2.1",
+      "bytes": 33554432,
+      "sha256": "a666866091e29e0e3cb3d05ce80256f1bc188b15e2f475b134a033fcaed19a9b"
+    },
+    {
+      "file": "model_5.pth.part-01.2.2",
+      "bytes": 33554432,
+      "sha256": "8a29fd0ab66469de4467b6b3e3e42fd61c5783ef1d829de02ea5aef41db4815f"
+    },
+    {
+      "file": "model_5.pth.part-01.2.3",
+      "bytes": 33554432,
+      "sha256": "bc73e320cbb1c84bd6c3b9d150b8954c429fc4645fb6d18623f95fc125dc93f3"
+    },
+    {
+      "file": "model_5.pth.part-01.2.4",
+      "bytes": 33554432,
+      "sha256": "47a6ea7920ad1aed8f8b4951d2b33148e11a4378958d37da2d8a3a21d29e73e6"
+    },
+    {
+      "file": "model_5.pth.part-01.2.5",
+      "bytes": 33554432,
+      "sha256": "cefa807c6264af7b52da77cb2351a6a25ed43c0dfb4552c2be1c6420e9137667"
+    },
+    {
+      "file": "model_5.pth.part-01.2.6",
+      "bytes": 33554432,
+      "sha256": "8623ced543661d18b7aadd7be30e28b4bd97a8d61984d1f69afed3c7a715a5ab"
+    },
+    {
+      "file": "model_5.pth.part-01.2.7",
+      "bytes": 33554432,
+      "sha256": "17a37cd2674be3f999a6163af5901bd83d251b8a97bc6aa9fb43f5685ba2edf4"
+    },
+    {
+      "file": "model_5.pth.part-01.2.8",
+      "bytes": 33554432,
+      "sha256": "f11fedbb9e2c19ed3de376d835ec5e49abd8f694346891c2dbfc7b33d90da15f"
+    },
+    {
+      "file": "model_5.pth.part-01.3",
+      "bytes": 268435456,
+      "sha256": "4fb252d8a0ed8a7bd940fb8baf963146c50caed2039a07347400db9c609aa159"
+    },
+    {
+      "file": "model_5.pth.part-01.4",
+      "bytes": 268435456,
+      "sha256": "fe1381411cb5f84f7fcc30967467644b94fbab6608913ef5a9dc98835432e2cf"
+    },
+    {
+      "file": "model_5.pth.part-02",
+      "bytes": 1073741824,
+      "sha256": "45a69b074587823a811f0eaedb9871e280cf5bfa1e1085b19902aa10305e486c"
+    },
+    {
+      "file": "model_5.pth.part-03.1.1",
+      "bytes": 33554432,
+      "sha256": "72e07e7237df54d49c333cbad928e563e690698e9a739885b13bfdd683397891"
+    },
+    {
+      "file": "model_5.pth.part-03.1.2",
+      "bytes": 33554432,
+      "sha256": "84cadf0d2690bf401fa4f9363d09d59608533c9a17a95496d8939235d4fbda4a"
+    },
+    {
+      "file": "model_5.pth.part-03.1.3",
+      "bytes": 33554432,
+      "sha256": "e44e52abca74556b43d9b48c61cbaeaf5aeb2f0f6151a5706f8bb9007a25d975"
+    },
+    {
+      "file": "model_5.pth.part-03.1.4",
+      "bytes": 33554432,
+      "sha256": "f92f770a3cf1b0a5d4bb4913e08f757577a7139edd4232dfcfa199bc7e98763e"
+    },
+    {
+      "file": "model_5.pth.part-03.1.5",
+      "bytes": 33554432,
+      "sha256": "29562e5a6ff3b85c7c4c7c5acf11f64244e1ccebf7b92e43a34a9444b16336b3"
+    },
+    {
+      "file": "model_5.pth.part-03.1.6",
+      "bytes": 33554432,
+      "sha256": "3de3f8df4bbb983683ed015716cf0cacb96338521b723256b45cf17c1c97bf0a"
+    },
+    {
+      "file": "model_5.pth.part-03.1.7",
+      "bytes": 33554432,
+      "sha256": "80108b92d10088c970775f81fef90693f0762d1989500f4ed4f386efa07053fc"
+    },
+    {
+      "file": "model_5.pth.part-03.1.8",
+      "bytes": 33554432,
+      "sha256": "b6ab9d0818f62b40b60f820a54eaf147c7eaf12e7a393f0b3e0b55df8a1eb819"
+    },
+    {
+      "file": "model_5.pth.part-03.2",
+      "bytes": 268435456,
+      "sha256": "5527a0d2bb489c23b64e8f175fb8cbbe02fe67ed180c9d1e7bea0f4875c7a19d"
+    },
+    {
+      "file": "model_5.pth.part-03.3",
+      "bytes": 268435456,
+      "sha256": "549a01b183a1fd7836352ff05155b2fc7867cfa5df6e0ad7c423891a01353e5e"
+    },
+    {
+      "file": "model_5.pth.part-03.4",
+      "bytes": 268435456,
+      "sha256": "f35db8ce6cf92613cf7e759a49ce830359479cbb58abe10d8254f8cbb64331e5"
+    },
+    {
+      "file": "model_5.pth.part-04",
+      "bytes": 1073741824,
+      "sha256": "82922b80225f460161034949360a95399ae8a4e180763977907874909a5a6e6c"
+    },
+    {
+      "file": "model_5.pth.part-05",
+      "bytes": 2826124,
+      "sha256": "05ee64e5cb368a7e8528a3d27d9404a47e6ad921ee3851f88df5b6a14cf4181f"
+    }
+  ],
+  "source": "https://drive.google.com/file/d/1U0r5UqpLQc8jvBqWtV-tgerYwGnDMPmV/view",
+  "publisher": "Jianshu-Hu/Generalizable-CLAP"
+}

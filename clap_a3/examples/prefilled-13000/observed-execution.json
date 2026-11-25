@@ -1,0 +1,121 @@
+{
+  "predicted_pad_center_world_m": [
+    0.08787563443183899,
+    0.11020144075155258,
+    0.7730141282081604
+  ],
+  "clap_to_a3_assumption": "Panda +Y to jaw axis, +Z to approach, tip at pad midpoint",
+  "mapped_a3_tcp_world_wxyz": [
+    0.08788805950179013,
+    0.11020252780431683,
+    0.7583381282081604,
+    0.7064337722128923,
+    -0.706433772212892,
+    -0.030843564597230116,
+    0.030843564597232014
+  ],
+  "initial_tcp_world_wxyz": [
+    0.25743540906916956,
+    0.3737268932150336,
+    0.8396879261770516,
+    0.643667696755065,
+    -0.29912384730866676,
+    0.2967377682321884,
+    -0.6388767620049042
+  ],
+  "approach_tcp_world_wxyz": [
+    0.08788805950179013,
+    0.11020252780431683,
+    0.8396879261770516,
+    0.7064337722128923,
+    -0.706433772212892,
+    -0.030843564597230116,
+    0.030843564597232014
+  ],
+  "grip_command": 0.2958382109523102,
+  "gripper_open_class": 0,
+  "target_columns_before": [
+    5,
+    0
+  ],
+  "scene": "prefilled",
+  "seed": 13000,
+  "cookies": [
+    "cookie_75",
+    "cookie_76",
+    "cookie_77",
+    "cookie_78",
+    "cookie_79"
+  ],
+  "preflight": {
+    "approach": "pass",
+    "predicted pose": "sampled_collision:cookie_3_geom/cookie_75_geom"
+  },
+  "reached_prediction": false,
+  "status": "blocked: sampled_collision:cookie_3_geom/cookie_75_geom",
+  "control_ticks": 158,
+  "final_tcp_world_wxyz": [
+    0.08933711668487485,
+    0.11054192526505273,
+    0.8393740123082137,
+    0.7072693734340025,
+    -0.7050949130775345,
+    -0.042966987467520354,
+    0.027659265037658136
+  ],
+  "final_pad_center_world_m": [
+    0.08900966684052504,
+    0.11047974301826391,
+    0.8540462323696655
+  ],
+  "pad_position_error_mm": 81.040516943666,
+  "tcp_orientation_error_deg": 1.447713865469182,
+  "relative_cookie_slip_mm": [
+    0.29981613182015654,
+    0.28352733487211296,
+    0.2752685119918052,
+    0.2639236105823898,
+    0.26050507023329633
+  ],
+  "finger_contacts": [
+    [
+      false,
+      true
+    ],
+    [
+      false,
+      false
+    ],
+    [
+      false,
+      false
+    ],
+    [
+      false,
+      false
+    ],
+    [
+      true,
+      false
+    ]
+  ],
+  "target_columns_after": [
+    5,
+    0
+  ],
+  "video_frames": 81,
+  "static_final_pose_check": {
+    "status": "sampled_collision:table_top/cookie_75_geom",
+    "penetration_mm": 10.481886385221278,
+    "packed_cookie_ids": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    ],
+    "sim_steps": 0
+  }
+}
